@@ -1,0 +1,64 @@
+﻿生成启动时间为 2019/7/5 14:13:24。
+     1>项目“E:\QKM code\Robot_vision\socket_controlled_opencv\socket_controlled_opencv\socket_controlled_opencv.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\vs2015\VC\bin\x86_amd64\CL.exe /c /I"E:\uEye-Full-4802-64-WHQL\Develop\include" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Release\\" /Fd"x64\Release\vc140.pdb" /Gd /TP /errorReport:prompt polygon_detection.cpp
+         polygon_detection.cpp
+     1>polygon_detection.cpp(47): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>polygon_detection.cpp(232): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+     1>polygon_detection.cpp(260): warning C4305: “-=”: 从“double”到“float”截断
+     1>polygon_detection.cpp(263): warning C4305: “+=”: 从“double”到“float”截断
+     1>polygon_detection.cpp(270): warning C4305: “-=”: 从“double”到“float”截断
+     1>polygon_detection.cpp(273): warning C4305: “+=”: 从“double”到“float”截断
+     1>polygon_detection.cpp(306): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>polygon_detection.cpp(307): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>polygon_detection.cpp(442): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>polygon_detection.cpp(443): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>polygon_detection.cpp(444): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>polygon_detection.cpp(488): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>polygon_detection.cpp(517): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>polygon_detection.cpp(518): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>polygon_detection.cpp(523): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>polygon_detection.cpp(524): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>polygon_detection.cpp(528): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>polygon_detection.cpp(529): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>polygon_detection.cpp(532): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>polygon_detection.cpp(533): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>polygon_detection.cpp(548): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>polygon_detection.cpp(549): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>polygon_detection.cpp(550): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>polygon_detection.cpp(566): warning C4305: “-=”: 从“double”到“float”截断
+     1>polygon_detection.cpp(569): warning C4305: “+=”: 从“double”到“float”截断
+     1>polygon_detection.cpp(587): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>polygon_detection.cpp(588): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>polygon_detection.cpp(591): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>polygon_detection.cpp(591): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>polygon_detection.cpp(592): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>polygon_detection.cpp(592): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>polygon_detection.cpp(593): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>polygon_detection.cpp(603): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>polygon_detection.cpp(606): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>polygon_detection.cpp(617): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>polygon_detection.cpp(617): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>polygon_detection.cpp(618): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>polygon_detection.cpp(618): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>polygon_detection.cpp(619): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>polygon_detection.cpp(720): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>polygon_detection.cpp(735): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>polygon_detection.cpp(776): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+       Link:
+         E:\vs2015\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\QKM code\Robot_vision\socket_controlled_opencv\x64\Release\socket_controlled_opencv.exe" /INCREMENTAL:NO /NOLOGO opencv_world343.lib uEye_api_64.lib ueye_tools_64.lib uEye_api_64.lib ueye_tools_64.lib opencv_world343d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\QKM code\Robot_vision\socket_controlled_opencv\x64\Release\socket_controlled_opencv.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\QKM code\Robot_vision\socket_controlled_opencv\x64\Release\socket_controlled_opencv.lib" /MACHINE:X64 x64\Release\calibration_fcn.obj
+         x64\Release\common_fcn.obj
+         x64\Release\cvUeye.obj
+         x64\Release\polygon_detection.obj
+         x64\Release\main.obj
+         正在生成代码
+         1 of 1400 functions ( 0.1%) were compiled, the rest were copied from previous compilation.
+           0 functions were new in current compilation
+           1 functions had inline decision re-evaluated but remain unchanged
+         已完成代码的生成
+         socket_controlled_opencv.vcxproj -> E:\QKM code\Robot_vision\socket_controlled_opencv\x64\Release\socket_controlled_opencv.exe
+     1>已完成生成项目“E:\QKM code\Robot_vision\socket_controlled_opencv\socket_controlled_opencv\socket_controlled_opencv.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:04.20
